@@ -66,34 +66,8 @@ canvas {
     pointer-events: none;
     opacity: 0.6;
 }
- 
-/* ==========================================
- * UI ADICIONAL (LOGO Y SWITCHER)
- * ========================================== */
- 
-/* Logo SVG flotante inferior derecho */
-.logo-link {
-    position: fixed;
-    bottom: 30px;
-    right: 25px;
-    z-index: 100;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    filter: drop-shadow(0 0 10px var(--glow-color));
-    opacity: 0.8;
-    cursor: pointer;
-}
- 
-.logo-link:hover {
-    transform: scale(1.1);
-    filter: drop-shadow(0 0 25px var(--glow-color));
-    opacity: 1;
-}
- 
-.logo-link img {
-    height: 32px;
-    width: auto;
-}
- 
+
+
 /* Selector de Temas: Empujado hacia abajo por el padding superior */
 .theme-switcher {
     position: fixed;
